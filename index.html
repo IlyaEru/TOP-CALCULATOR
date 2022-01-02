@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Pushster&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<body>
+    <div class="header">
+        <h1 id="hero">Calculator</h1>
+    </div>
+    <div class="content">
+        <div id="display">
+            <p id="upper-display"></p>
+            <p id="lower-display"></p>
+        </div>
+        <div id="calc-buttons">
+            <div class="button-row">
+                <button data-calc="" id="clear-all-button" ><img id="clear-all-img" src="img/clearAll.png" alt="clear All Button"></button>
+                <button data-calc="" id="clear-button"><img id="clear-img" src="img/clear.png" alt="clear Button"></button>
+                <button class="calc-operator" data-calc="^" id="exponentiation"  ><p>^</p></button>
+                <button class="calc-operator" data-calc="/" ><img src="img/divide.png" alt="divide Button"></button>
+            </div>
+            <div class="button-row">
+                <button class="calc-num" data-calc="7"  id="7">7</button>
+                <button class="calc-num" data-calc="8"  id="8">8</button>
+                <button class="calc-num" data-calc="9"  id="9">9</button>
+                <button class="calc-operator"  data-calc="*"  id="X"><p>X</p> </button>
+            </div>
+            <div class="button-row">
+                <button class="calc-num" data-calc="4"  id="4">4</button>
+                <button class="calc-num" data-calc="5"  id="5">5</button>
+                <button class="calc-num" data-calc="6"  id="6">6</button>
+                <button class="calc-operator"  data-calc="-"  id="minus"><p>-</p></button>
+            </div>
+            <div class="button-row">
+                <button class="calc-num" data-calc="1"  id="1">1</button>
+                <button class="calc-num" data-calc="2"  id="2">2</button>
+                <button class="calc-num" data-calc="3"  id="3">3</button>
+                <button class="calc-operator"  data-calc="+"  id="plus"><p>+</p></button>
+            </div>
+            <div class="button-row">
+                <button></button>
+                <button class="calc-num" data-calc="0"  id="0">0</button>
+                <button class="calc-num" data-calc="."  id=".">.</button>
+                <button data-calc=""  id="equal"><p>=</p></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="img/github.png" alt="github link">
+        <a href="https://github.com/IlyaEru">IlyaEru</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
